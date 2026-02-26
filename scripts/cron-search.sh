@@ -280,9 +280,16 @@ execute_with_retry() {
             fi
         fi
         
-        if [ $exit_code -eq 0 ]; then
-            log "任务执行成功"
-            break
+            if [ $exit_code -eq 0 ]; then
+                log "任务执行成功"
+                
+                # 生成博客 HTML
+                generate_blog_html
+                
+                # 自动提交推送（静默执行，不输出到日志）
+                auto_commit_push
+                
+                break
         else
             if [ $attempt -lt $MAX_RETRIES ]; then
                 log "等待 $RETRY_DELAY 秒后重试..."
@@ -309,6 +316,59 @@ send_notification() {
     # 例如: curl -s -X POST "https://api.telegram.org/bot$TOKEN/sendMessage" -d "chat_id=$CHAT_ID" -d "text=$message"
     
     log "通知: $message"
+}
+
+# 自动提交推送（静默执行）
+auto_commit_push() {
+    # 检查是否是 git 仓库
+    if [ ! -d "$PROJECT_ROOT/.git" ]; then
+        return 0
+    fi
+    
+    # 切换到项目目录执行 git 操作
+    cd "$PROJECT_ROOT" || return 0
+    
+    # 检查是否有需要提交的更改
+    if git diff --quiet && git diff --cached --quiet; then
+        return 0
+    fi
+    
+    # 添加更改（静默执行，不输出任何内容）
+    git add -A 2>/dev/null
+    
+    # 提交（使用当前时间作为提交信息）
+    local commit_msg="Update: $(date '+%Y-%m-%d %H:%M')"
+    git commit -m "$commit_msg" 2>/dev/null
+    
+    # 推送到远程（静默执行）
+    git push 2>/dev/null
+}
+
+# 生成 Hugo 博客文章（静默执行）
+generate_blog_html() {
+    local content_dir="$PROJECT_ROOT/content/posts"
+    local summary_file="$DATA_DIR/summary_latest.md"
+    
+    [ ! -f "$summary_file" ] && return 0
+    
+    mkdir -p "$content_dir"
+    
+    local date_str=$(date +%Y-%m-%d)
+    local timestamp=$(date -Iseconds)
+    local content=$(cat "$summary_file")
+    local post_file="$content_dir/$date_str.md"
+    
+    cat > "$post_file" << EOF
+---
+title: "$date_str 技术创新监测"
+date: $timestamp
+description: "技术创新监测报告"
+categories: ["技术监测"]
+tags: ["AI", "自动化", "开源"]
+---
+
+$content
+EOF
 }
 
 # 主函数
