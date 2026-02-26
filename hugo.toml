@@ -1,11 +1,9 @@
-baseURL = 'https://example.com/'
 languageCode = 'zh-CN'
 title = '技术创新监测报告'
-theme = ''
 
 [taxonomies]
- "
-  category = tag = "tags "categories"
+  category = "categories"
+  tag = "tags"
 
 [params]
   description = "定时追踪 AI、自动化、开源领域的最新技术创新"
