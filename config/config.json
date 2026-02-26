@@ -1,11 +1,9 @@
 {
   "taskName": "技术创新监测",
   "searchKeywords": [
-    "cron job scheduling best practices 2026",
+    "AI agent cron job scheduling ",
     "AI agent automation task scheduling",
-    "GitHub trending open source automation tools",
-    "LLM autonomous agent framework",
-    "Hacker News programming discussion 2026"
+    "LLM autonomous agent framework"
   ],
   "contentTypes": ["github", "reddit", "arxiv", "blog", "hacker news"],
   "sourcePriority": {
