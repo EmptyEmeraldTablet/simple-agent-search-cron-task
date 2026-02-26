@@ -348,23 +348,30 @@ auto_commit_push() {
 generate_blog_html() {
     local content_dir="$PROJECT_ROOT/content/posts"
     local summary_file="$DATA_DIR/summary_latest.md"
+    local config_file="$PROJECT_ROOT/config/config.json"
     
     [ ! -f "$summary_file" ] && return 0
     
     mkdir -p "$content_dir"
     
-    local date_str=$(date +%Y-%m-%d)
+    local date_str=$(date +%Y-%m-%d_%H-%M)
     local timestamp=$(date -Iseconds)
     local content=$(cat "$summary_file")
     local post_file="$content_dir/$date_str.md"
     
+    # 从配置中读取任务名称
+    local task_name="Monitor Report"
+    if [ -f "$config_file" ]; then
+        task_name=$(jq -r '.taskName // "Monitor Report"' "$config_file")
+    fi
+    
     cat > "$post_file" << EOF
 ---
-title: "$date_str 技术创新监测"
+title: "$date_str $task_name"
 date: $timestamp
-description: "技术创新监测报告"
-categories: ["技术监测"]
-tags: ["AI", "自动化", "开源"]
+description: "$task_name"
+categories: ["Report"]
+tags: ["Automation", "AI"]
 ---
 
 $content

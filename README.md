@@ -1,6 +1,5 @@
 # Cron Search Task
-
-定时技术创新监测任务自动化实验项目。
+简易AI AGENT定时任务/自动化实验项目。
 
 [English Version](./README_EN.md)
 

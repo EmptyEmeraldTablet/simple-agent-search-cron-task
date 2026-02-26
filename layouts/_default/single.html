@@ -115,6 +115,19 @@
             outline-offset: 3px;
         }
 
+        .github-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .github-label {
+            color: var(--muted);
+            font-size: 0.78rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
         main {
             margin: 28px auto 0;
             display: grid;
@@ -282,7 +295,7 @@
             body { padding: 18px; }
             .site-header { padding: 22px; flex-direction: column; align-items: flex-start; }
             .site-header h1 { font-size: 1.6rem; }
-            .github-link { align-self: stretch; }
+            .github-meta { align-self: stretch; justify-content: space-between; width: 100%; }
             .post { padding: 22px; }
         }
     </style>
@@ -296,7 +309,10 @@
             {{ end }}
         </div>
         {{ with .Site.Params.github }}
-            <a class="github-link" href="{{ . }}" target="_blank" rel="noopener">GitHub</a>
+            <div class="github-meta">
+                <span class="github-label">Project Repo</span>
+                <a class="github-link" href="{{ . }}" target="_blank" rel="noopener">GitHub</a>
+            </div>
         {{ end }}
     </header>
 

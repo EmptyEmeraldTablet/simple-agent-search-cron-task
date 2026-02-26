@@ -1,11 +1,11 @@
 languageCode = 'zh-CN'
-title = '技术创新监测报告'
+title = 'AI AGENT CRONJOB FOR WEB SEARCH BLOG'
 
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
-  description = "定时追踪 AI、自动化、开源领域的最新技术创新"
+  description = "长期追踪你想要了解的领域"
   author = "Cron Search Task"
   github = "https://github.com/EmptyEmeraldTablet/simple-agent-search-cron-task"
