@@ -8,3 +8,4 @@ title = '技术创新监测报告'
 [params]
   description = "定时追踪 AI、自动化、开源领域的最新技术创新"
   author = "Cron Search Task"
+  github = "https://github.com/EmptyEmeraldTablet/simple-agent-search-cron-task"
