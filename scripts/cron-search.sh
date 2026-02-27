@@ -5,6 +5,17 @@
 
 set -e
 
+# 解决 cron 环境下 PATH 不完整的问题
+# 扩展 PATH 以包含常见安装位置
+export PATH="$HOME/.nvm/versions/node/*/bin:$HOME/.local/bin:$HOME/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
+# 自动获取 opencode 路径
+OPENCODE_PATH=$(which opencode 2>/dev/null || echo "")
+if [ -z "$OPENCODE_PATH" ]; then
+    echo "Error: opencode not found in PATH" >&2
+    exit 1
+fi
+
 # ========== 配置区域 ==========
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
@@ -43,8 +54,8 @@ check_dependencies() {
     if [ "$MOCK_MODE" = "true" ]; then
         log "模拟模式已启用，跳过 opencode 检查"
     else
-        if ! command -v opencode &> /dev/null; then
-            error_log "opencode 未安装，请先安装 opencode"
+        if [ ! -x "$OPENCODE_PATH" ]; then
+            error_log "opencode 未安装或不可执行，请先安装 opencode"
             exit 1
         fi
     fi
@@ -271,7 +282,7 @@ execute_with_retry() {
             
             log "执行 opencode run"
             # cd 到项目目录以读取 opencode.json 配置
-            if timeout "$TIMEOUT" bash -c "cd '$PROJECT_ROOT' && opencode run '$PROMPT'" 2>&1 | tee -a "$LOG_FILE"; then
+            if timeout "$TIMEOUT" bash -c "cd '$PROJECT_ROOT' && $OPENCODE_PATH run '$PROMPT'" 2>&1 | tee -a "$LOG_FILE"; then
                 log "任务执行成功"
                 exit_code=0
             else
