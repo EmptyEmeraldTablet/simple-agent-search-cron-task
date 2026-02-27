@@ -6,11 +6,16 @@
 set -e
 
 # 解决 cron 环境下 PATH 不完整的问题
-# 扩展 PATH 以包含常见安装位置
-export PATH="$HOME/.nvm/versions/node/*/bin:$HOME/.local/bin:$HOME/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+# 扩展 PATH 以包含常见安装位置（包括 nvm 安装的不同版本 node）
+NVM_NODE_BINS=$(ls -d $HOME/.nvm/versions/node/*/bin 2>/dev/null | tr '\n' ':')
+export PATH="$NVM_NODE_BINS$HOME/.local/bin:$HOME/miniconda3/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 # 自动获取 opencode 路径
 OPENCODE_PATH=$(which opencode 2>/dev/null || echo "")
+if [ -z "$OPENCODE_PATH" ]; then
+    # 尝试直接搜索
+    OPENCODE_PATH=$(ls $HOME/.nvm/versions/node/*/bin/opencode 2>/dev/null | head -1)
+fi
 if [ -z "$OPENCODE_PATH" ]; then
     echo "Error: opencode not found in PATH" >&2
     exit 1
