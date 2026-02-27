@@ -1,5 +1,5 @@
 # Cron Search Task
-简易AI AGENT定时任务/自动化实验项目。
+agent search cron task sample , a simple TrendRadar service without openclaw or other complex backend service. opencode + cron + bash + git实现的一个极简AI agent定时任务系统。定时自动执行指定搜索任务，自动提交推送分析结果。分析结果自动静态部署到cloudflare pages上
 
 [English Version](./README_EN.md)
 
@@ -19,8 +19,8 @@
 
 ### 技术栈
 
-- **opencode**：AI 编程 Agent
-- **cron**：Linux 定时任务
+- **opencode**：此服务中被调用的AI Agent
+- **cron**：Linux 定时任务，需要linux环境，需要长期稳定运行的服务器
 - **bash**：任务脚本
 - **Hugo**：静态博客生成器
 - **Cloudflare Pages**：静态网站托管
@@ -54,7 +54,7 @@ curl -fsSL https://opencode.ai/install | bash
 apt install jq
 ```
 
-### 2. 配置关键词
+### 2. 配置关键词&&清理当前项目残留的生成内容
 
 编辑 `config/config.json` 中的 `searchKeywords` 数组：
 
@@ -66,6 +66,9 @@ apt install jq
   ]
 }
 ```
+
+清理content/post/下的生成内容
+清理data/下生成的内容
 
 ### 3. 测试运行
 
