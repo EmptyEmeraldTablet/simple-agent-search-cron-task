@@ -1,36 +1,162 @@
-{
-  "version": "1.0",
-  "taskName": "技术创新监测",
-  "lastUpdated": "2026-02-27T08:43:22+08:00",
-  "entries": [
-    {
-      "title": "Mock Project: AI Agent Framework",
-      "url": "https://github.com/mock/ai-agent-framework",
-      "source": "github",
-      "keywords": [
-        "AI",
-        "agent"
-      ],
-      "addedAt": "2026-02-27T08:43:22+08:00"
-    },
-    {
-      "title": "Mock Paper: Transformer Advances",
-      "url": "https://arxiv.org/abs/2601.12345",
-      "source": "arxiv",
-      "keywords": [
-        "transformer",
-        "ML"
-      ],
-      "addedAt": "2026-02-27T08:43:22+08:00"
-    },
-    {
-      "title": "Mock Discussion: New Programming Paradigm",
-      "url": "https://reddit.com/r/programming/comments/mock123",
-      "source": "reddit",
-      "keywords": [
-        "programming"
-      ],
-      "addedAt": "2026-02-27T08:43:22+08:00"
-    }
-  ]
-}
+[
+  {
+    "title": "AI Agent Job Scheduling: Best Patterns and Tools for 2026",
+    "url": "https://fast.io/resources/ai-agent-job-scheduling/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "AI agent automation task scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "OpenClaw Cron Jobs: The Complete Automation Scheduling Guide",
+    "url": "https://openclaw.expert/blog/openclaw-cron-jobs-complete-scheduling-guide",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "AI agent automation task scheduling"],
+    "date": "2026-02-20"
+  },
+  {
+    "title": "Jobs and CronJobs: Batch Workloads for AI Agents",
+    "url": "https://agentfactory.panaversity.org/docs/AI-Cloud-Native-Development/kubernetes-for-ai-services/jobs-and-cronjobs-batch-workloads",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-12"
+  },
+  {
+    "title": "Use cron jobs - LangSmith Deployment",
+    "url": "https://docs.langchain.com/langgraph-platform/cron-jobs",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "Automate AI Workflows with Cron Jobs in LangGraph",
+    "url": "https://medium.com/@sangeethasaravanan/automate-ai-workflows-with-cron-jobs-in-langgraph-daily-summaries-example-be2908a4c615",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2025-05-22"
+  },
+  {
+    "title": "AI Scheduled Automation Agent | Automate Recurring Tasks",
+    "url": "https://www.v7labs.com/agents/ai-scheduled-automation-agent",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent automation task scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "Claude Cowork Adds Scheduled Tasks: Automate Recurring Workflows with Timed Runs",
+    "url": "https://blockchain.news/ainews/claude-cowork-adds-scheduled-tasks-automate-recurring-workflows-with-timed-runs",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "AI agent automation task scheduling"],
+    "date": "2026-02-26"
+  },
+  {
+    "title": "Microsoft Research Introduces CORPGEN To Manage Multi Horizon Tasks For Autonomous AI Agents",
+    "url": "https://www.marktechpost.com/2026/02/26/microsoft-research-introduces-corpgen-to-manage-multi-horizon-tasks-for-autonomous-ai-agents-using-hierarchical-planning-and-memory/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework",
+    "url": "https://github.com/HKUDS/AutoAgent",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "AgentKit: Structured LLM Reasoning with Dynamic Graphs",
+    "url": "https://arxiv.org/abs/2404.11483",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2024-04-17"
+  },
+  {
+    "title": "A Concurrent Modular Agent: Framework for Autonomous LLM Agents",
+    "url": "https://arxiv.org/abs/2508.19042",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2025-08-26"
+  },
+  {
+    "title": "The Complete Stack for Local Autonomous Agents: From GGML to Orchestration",
+    "url": "https://www.sitepoint.com/the-complete-stack-for-local-autonomous-agents--from-ggml-to-orchestration/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-23"
+  },
+  {
+    "title": "NanoClaw Release: Lightweight LLM Agent Framework for Autonomous Tools",
+    "url": "https://blockchain.news/ainews/nanoclaw-release-lightweight-llm-agent-framework-for-autonomous-tools-2026-analysis",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-23"
+  },
+  {
+    "title": "Trigger.dev - Build and deploy fully-managed AI agents and workflows",
+    "url": "https://trigger.dev/",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent automation task scheduling", "LLM autonomous agent framework"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "Best 10 AI Agent Frameworks for 2025",
+    "url": "https://www.deepchecks.com/best-ai-agent-frameworks/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "The Best AI Agent Frameworks",
+    "url": "https://blog.swmansion.com/the-best-ai-agent-frameworks-5aea3d8c5d93",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2025-09-25"
+  },
+  {
+    "title": "What Is OpenClaw AI in 2026? A Practical Guide for Developers",
+    "url": "https://dev.to/laracopilot/what-is-openclaw-ai-in-2026-a-practical-guide-for-developers-25hj",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "AI agent automation task scheduling"],
+    "date": "2026-02-24"
+  },
+  {
+    "title": "How to Use AI Agents for Task Scheduling",
+    "url": "https://datagrid.com/blog/use-ai-agents-task-scheduling",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent automation task scheduling"],
+    "date": "2026-01-07"
+  },
+  {
+    "title": "Autonomous AI Agents for Productivity: Scheduling, Reminders & More",
+    "url": "https://www.mindstudio.ai/blog/autonomous-ai-agents-productivity-scheduling-reminders",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent automation task scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "Agent Framework Workflows: Beyond Chat — Orchestrating Complex AI Tasks",
+    "url": "https://dev.to/bspann/agent-framework-workflows-beyond-chat-orchestrating-complex-ai-tasks-3oba",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-23"
+  }
+]
