@@ -158,5 +158,53 @@
     "source_type": "tech_blog",
     "keywords": ["LLM autonomous agent framework"],
     "date": "2026-02-23"
+  },
+  {
+    "title": "Cron-Based AI Agent Monitoring: Building Self-Healing Workflows",
+    "url": "https://dev.to/operationalneuralnetwork/cron-based-ai-agent-monitoring-building-self-healing-workflows-1gm6",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "OpenClaw 2.26 Fixes the Hidden Failures That Were Breaking Your AI Agents",
+    "url": "https://ucstrategies.com/news/openclaw-2-26-update-major-stability-security-and-automation-fixes-explained/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "AI Agent For Scheduling: A Practical Guide For Enterprise Teams",
+    "url": "https://www.ema.co/additional-blogs/addition-blogs/best-ai-agents-scheduling-tasks",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent automation task scheduling"],
+    "date": "2026-02-23"
+  },
+  {
+    "title": "Towards Agentic OS: An LLM Agent Framework for Linux Schedulers",
+    "url": "https://arxiv.org/abs/2509.01245",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2025-09-01"
+  },
+  {
+    "title": "Microsoft Agent Framework Overview",
+    "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-27"
+  },
+  {
+    "title": "Terminal-Based Agent Engineering: The 'Claude Code' Workflow",
+    "url": "https://www.sitepoint.com/terminal-based-agent-engineering-the--claude-code--workflow/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-23"
   }
 ]
