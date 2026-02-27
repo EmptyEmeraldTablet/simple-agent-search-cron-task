@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "taskName": "技术创新监测",
+  "lastUpdated": "2026-02-27T08:43:22+08:00",
+  "entries": [
+    {
+      "title": "Mock Project: AI Agent Framework",
+      "url": "https://github.com/mock/ai-agent-framework",
+      "source": "github",
+      "keywords": [
+        "AI",
+        "agent"
+      ],
+      "addedAt": "2026-02-27T08:43:22+08:00"
+    },
+    {
+      "title": "Mock Paper: Transformer Advances",
+      "url": "https://arxiv.org/abs/2601.12345",
+      "source": "arxiv",
+      "keywords": [
+        "transformer",
+        "ML"
+      ],
+      "addedAt": "2026-02-27T08:43:22+08:00"
+    },
+    {
+      "title": "Mock Discussion: New Programming Paradigm",
+      "url": "https://reddit.com/r/programming/comments/mock123",
+      "source": "reddit",
+      "keywords": [
+        "programming"
+      ],
+      "addedAt": "2026-02-27T08:43:22+08:00"
+    }
+  ]
+}

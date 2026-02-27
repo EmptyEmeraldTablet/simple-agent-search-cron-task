@@ -54,13 +54,28 @@ sleep 2
 TIMESTAMP=$(date -Iseconds)
 
 # 更新 content_registry.json
-if [ -f "$DATA_DIR/content_registry.json" ]; then
-    # 读取现有内容
-    TEMP_REG=$(mktemp)
-    cp "$DATA_DIR/content_registry.json" "$TEMP_REG"
-    
-    # 添加模拟数据
-    jq --arg timestamp "$TIMESTAMP" '.lastUpdated = $timestamp | .entries += [
+REGISTRY_FILE="$DATA_DIR/content_registry.json"
+
+# 确保文件存在且有效
+if [ ! -s "$REGISTRY_FILE" ]; then
+    cat > "$REGISTRY_FILE" << 'EOF'
+{
+  "version": "1.0",
+  "taskName": "技术创新监测",
+  "lastUpdated": null,
+  "entries": []
+}
+EOF
+fi
+
+# 添加模拟数据
+jq --arg timestamp "$TIMESTAMP" '
+    if type == "array" then
+        {version: "1.0", taskName: "技术创新监测", lastUpdated: $timestamp, entries: .}
+    else
+        .lastUpdated = $timestamp
+    end
+    | .entries += [
         {
             "title": "Mock Project: AI Agent Framework",
             "url": "https://github.com/mock/ai-agent-framework",
@@ -82,11 +97,10 @@ if [ -f "$DATA_DIR/content_registry.json" ]; then
             "keywords": ["programming"],
             "addedAt": $timestamp
         }
-    ]' "$TEMP_REG" > "$DATA_DIR/content_registry.json"
-    
-    rm -f "$TEMP_REG"
-    log "已更新 content_registry.json"
-fi
+    ]
+' "$REGISTRY_FILE" > "$REGISTRY_FILE.tmp" && mv "$REGISTRY_FILE.tmp" "$REGISTRY_FILE"
+
+log "已更新 content_registry.json"
 
 # 写入摘要
 cat > "$DATA_DIR/summary_latest.md" << EOF
