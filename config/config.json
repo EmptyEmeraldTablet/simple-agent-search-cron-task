@@ -1,7 +1,7 @@
 {
   "taskName": "搜索任务",
   "searchKeywords": [
-    ""AI agent" AND ("cron job" OR "scheduled tasks" OR "periodic execution") "
+    ""AI agent" AND ("cron job" OR "scheduled tasks" OR "periodic execution") ""
   ],
   "contentTypes": ["github", "reddit", "arxiv", "blog", "hacker news"],
   "sourcePriority": {
