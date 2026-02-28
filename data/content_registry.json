@@ -206,5 +206,181 @@
     "source_type": "tech_blog",
     "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
     "date": "2026-02-23"
+  },
+  {
+    "title": "Cron Expression Tools for AI Scheduling Agents",
+    "url": "https://tinyfn.io/blog/mcp-cron-scheduling-agents",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Scheduling Agents at Scale: Automate Flows with Cron Trigger",
+    "url": "https://labs.lamatic.ai/p/schedule-agents-with-cron-trigger",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "AI agent automation task scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Task-Based AI Agents That Automate Workflows End-to-End",
+    "url": "https://fueler.io/blog/task-based-ai-agents-that-automate-workflows-end-to-end",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent automation task scheduling", "LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Top 20 AI Agent Builder Platforms (Complete 2026 Guide)",
+    "url": "https://www.vellum.ai/blog/top-ai-agent-builder-platforms-complete-guide",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Astreus - Autonomous AI Agent Framework",
+    "url": "https://astreus.org/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Top 7 Agentic AI Frameworks in 2026",
+    "url": "https://www.alphamatch.ai/blog/top-agentic-ai-frameworks-2026",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Agentic Open-Source Tools (2026 Edition)",
+    "url": "https://you.com/resources/popular-agentic-open-source-tools-2026",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Top 5 Agentic AI Frameworks to Watch in 2026",
+    "url": "https://futureagi.substack.com/p/top-5-agentic-ai-frameworks-to-watch",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "cron-agent: Parse schedule in natural language to cron using AI",
+    "url": "https://github.com/hulio-ai/cron-agent",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron job scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Xagent: AI agents for everyone with dynamic planning",
+    "url": "https://github.com/xorbitsai/xagent",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "acorn: LLM framework for long running agents",
+    "url": "https://github.com/askmanu/acorn",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Omnigent: Universal autonomous agent framework",
+    "url": "https://github.com/FrancescoStabile/omnigent",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Timbal: Framework for building and orchestrating agentic AI applications",
+    "url": "https://github.com/timbal-ai/timbal",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework", "AI agent automation task scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "AgentForge: Lightweight Modular Framework for Autonomous Agents",
+    "url": "https://arxiv.org/abs/2601.13383",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Agentic Reasoning for Large Language Models",
+    "url": "https://arxiv.org/abs/2601.12538",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "InfiAgent: Infinite-Horizon Framework for General-Purpose Autonomous Agents",
+    "url": "https://arxiv.org/abs/2601.03204",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "MagicAgent: Towards Generalized Agent Planning",
+    "url": "https://arxiv.org/abs/2602.19000",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "ESAA: Event Sourcing for Autonomous Agents in LLM-Based Software Engineering",
+    "url": "https://arxiv.org/abs/2602.23193",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "EvoRoute: Experience-Driven Self-Routing LLM Agent Systems",
+    "url": "https://arxiv.org/abs/2601.02695",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "KLong: Training LLM Agent for Extremely Long-horizon Tasks",
+    "url": "https://arxiv.org/html/2602.17547v1",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Bugs in Modern LLM Agent Frameworks: An Empirical Study",
+    "url": "https://arxiv.org/html/2602.21806v2",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Awesome AI Agent Papers: Curated 2026 Research Collection",
+    "url": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
   }
 ]
