@@ -1,9 +1,7 @@
 {
   "taskName": "技术创新监测",
   "searchKeywords": [
-    "AI agent cron job scheduling ",
-    "AI agent automation task scheduling",
-    "LLM autonomous agent framework"
+    "AI agent cron job manamgement  execution "
   ],
   "contentTypes": ["github", "reddit", "arxiv", "blog", "hacker news"],
   "sourcePriority": {
