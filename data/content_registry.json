@@ -502,5 +502,61 @@
     "source_type": "github",
     "keywords": ["LLM autonomous agent framework"],
     "date": "2026-02-28"
+  },
+  {
+    "title": "murmur: The AI cron daemon",
+    "url": "https://github.com/t0dorakis/murmur",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron job scheduling", "scheduled tasks"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "TPS-Bench: Evaluating AI Agents' Tool Planning & Scheduling Abilities in Compounding Tasks",
+    "url": "https://arxiv.org/abs/2511.01527",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["AI agent scheduling", "tool planning"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework",
+    "url": "https://arxiv.org/abs/2602.22808",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["LLM autonomous agent framework"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "TempoNet: Slack-Quantized Transformer-Guided Reinforcement Scheduler",
+    "url": "https://arxiv.org/abs/2602.18109",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["AI agent scheduling", "reinforcement learning"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Schedule tasks - Cloudflare Agents",
+    "url": "https://developers.cloudflare.com/agents/api-reference/schedule-tasks",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "serverless scheduling"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Agent Zero: Tasks & Scheduling",
+    "url": "https://www.agent-zero.ai/p/docs/task-scheduler/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "scheduled tasks"],
+    "date": "2026-02-28"
+  },
+  {
+    "title": "Running code on a schedule - Inngest",
+    "url": "https://www.inngest.com/patterns/running-code-on-a-schedule",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "event-driven scheduling"],
+    "date": "2026-02-28"
   }
 ]
