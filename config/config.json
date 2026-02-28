@@ -1,5 +1,5 @@
 {
-  "taskName": "技术创新监测",
+  "taskName": "搜索任务",
   "searchKeywords": [
     ""AI agent" AND ("cron job" OR "scheduled tasks" OR "periodic execution") "
   ],
