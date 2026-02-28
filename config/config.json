@@ -1,7 +1,7 @@
 {
   "taskName": "技术创新监测",
   "searchKeywords": [
-    "AI agent cron job manamgement  execution "
+    ""AI agent" AND ("cron job" OR "scheduled tasks" OR "periodic execution") "
   ],
   "contentTypes": ["github", "reddit", "arxiv", "blog", "hacker news"],
   "sourcePriority": {
