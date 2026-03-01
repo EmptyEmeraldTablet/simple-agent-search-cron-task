@@ -558,5 +558,29 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent scheduled tasks", "event-driven scheduling"],
     "date": "2026-02-28"
+  },
+  {
+    "title": "Cron Jobs - Restate docs",
+    "url": "https://docs.restate.dev/guides/cron",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "durable execution"],
+    "date": "2026-03-01"
+  },
+  {
+    "title": "Schedules - Windmill",
+    "url": "https://www.windmill.dev/docs/core_concepts/scheduling",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "open-source scheduling"],
+    "date": "2026-03-01"
+  },
+  {
+    "title": "Scheduling | Letta",
+    "url": "https://docs.letta.com/documentation/stateful-agents/scheduling",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "stateful agents"],
+    "date": "2026-03-01"
   }
 ]
