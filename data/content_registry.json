@@ -582,5 +582,61 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent scheduled tasks", "stateful agents"],
     "date": "2026-03-01"
+  },
+  {
+    "title": "pc-agent-loop: AI-powered PC agent loop for desktop automation",
+    "url": "https://github.com/lsdefine/pc-agent-loop",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent desktop automation", "periodic execution", "autonomous task execution"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "cron-agent: Parse schedule in natural language to cron using AI",
+    "url": "https://github.com/hulio-ai/cron-agent",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron job", "natural language cron", "scheduled tasks"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "Trigger.dev: Build reliable cron schedules for AI agents",
+    "url": "https://trigger.dev/product/scheduled-tasks",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "scheduled tasks", "recurring tasks"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "Mango agents: Scheduling and Clock",
+    "url": "https://mango-agents.readthedocs.io/en/latest/scheduling.html",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduling", "periodic execution", "clock-based scheduling"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "Autonomous Task Scheduling for AI Agents: From Reactive to Self-Directed",
+    "url": "https://zylos.ai/research/2026-02-16-autonomous-task-scheduling-ai-agents",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduling", "autonomous task scheduling", "proactive agents"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "Lemon Agent Technical Report",
+    "url": "https://arxiv.org/html/2602.07092v1",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["multi-agent orchestration", "autonomous task execution", "agent planning"],
+    "date": "2026-03-02"
+  },
+  {
+    "title": "TodoEvolve: Learning to Architect Agent Planning Systems",
+    "url": "https://arxiv.org/abs/2602.07839",
+    "source": "arxiv",
+    "source_type": "arxiv",
+    "keywords": ["agent planning", "autonomous scheduling", "agent architecture"],
+    "date": "2026-03-02"
   }
 ]
