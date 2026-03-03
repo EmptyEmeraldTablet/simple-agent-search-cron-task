@@ -638,5 +638,53 @@
     "source_type": "arxiv",
     "keywords": ["agent planning", "autonomous scheduling", "agent architecture"],
     "date": "2026-03-02"
+  },
+  {
+    "title": "Seven Hosting Patterns for AI Agents",
+    "url": "https://james-carr.org/posts/2026-03-01-agent-hosting-patterns/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent hosting patterns", "cron jobs", "scheduled tasks"],
+    "date": "2026-03-03"
+  },
+  {
+    "title": "ClawTick - Cloud-powered scheduling for OpenClaw",
+    "url": "https://clawtick.com/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduling", "cloud cron", "scheduled tasks"],
+    "date": "2026-03-03"
+  },
+  {
+    "title": "agent-step-sequencer: Multi-step scheduler for in-depth agent requests",
+    "url": "https://github.com/gostlightai/agent-step-sequencer",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduler", "heartbeat", "periodic execution"],
+    "date": "2026-03-03"
+  },
+  {
+    "title": "kelos: Kubernetes-native framework for orchestrating autonomous AI coding agents",
+    "url": "https://github.com/kelos-dev/kelos",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["Kubernetes AI agent", "agent orchestration", "scheduled tasks"],
+    "date": "2026-03-03"
+  },
+  {
+    "title": "tekton: Self-hosted platform for running background AI coding agents at scale",
+    "url": "https://github.com/lambdaclass/tekton",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent background execution", "scheduled tasks", "self-hosted"],
+    "date": "2026-03-03"
+  },
+  {
+    "title": "Squad: AI agent teams for any project",
+    "url": "https://github.com/bradygaster/squad",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent teams", "multi-agent", "workflow automation"],
+    "date": "2026-03-03"
   }
 ]
