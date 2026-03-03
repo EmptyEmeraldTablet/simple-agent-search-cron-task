@@ -1,6 +1,6 @@
 # Cron Search Task
 agent search cron task sample , a simple TrendRadar service without openclaw or other complex backend service. opencode + cron + bash + git实现的一个极简AI agent定时任务系统。定时自动执行指定搜索任务，自动提交推送分析结果。分析结果自动静态部署到cloudflare pages上
-
+[refactor version of this project](https://github.com/EmptyEmeraldTablet/simple-agent-search-cron-task-py)
 [English Version](./README_EN.md)
 
 ---
