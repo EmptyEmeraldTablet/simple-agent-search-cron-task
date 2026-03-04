@@ -34,7 +34,7 @@ ERROR_LOG="$LOG_DIR/error.log"
 LOCK_FILE="$LOG_DIR/running.lock"
 
 # 超时设置（秒）
-TIMEOUT=600
+TIMEOUT=6000
 
 # 重试配置
 MAX_RETRIES=3
