@@ -686,5 +686,53 @@
     "source_type": "github",
     "keywords": ["AI agent teams", "multi-agent", "workflow automation"],
     "date": "2026-03-03"
+  },
+  {
+    "title": "Ductwork: Go-based platform for running AI agents on schedules",
+    "url": "https://github.com/dneil5648/ductwork",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduler", "Go", "periodic execution", "persistent memory"],
+    "date": "2026-03-04"
+  },
+  {
+    "title": "How to Schedule AI Agents to Run Automatically (Cron, Triggers, and Webhooks)",
+    "url": "https://agentc2.ai/blog/how-to-schedule-ai-agents-cron-triggers",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "scheduled tasks", "triggers", "webhooks"],
+    "date": "2026-03-04"
+  },
+  {
+    "title": "The Cron Layer: How I Taught My AI Agent to Work Autonomously 24/7",
+    "url": "https://dev.to/ryancwynar/the-cron-layer-how-i-taught-my-ai-agent-to-work-autonomously-247-3oog",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "autonomous 24/7", "periodic execution"],
+    "date": "2026-03-04"
+  },
+  {
+    "title": "Can Antigravity agents run scheduled/cron-like tasks?",
+    "url": "https://discuss.ai.google.dev/t/can-antigravity-agents-run-scheduled-cron-like-tasks-e-g-checking-an-external-service-every-10-minutes/128340",
+    "source": "forum",
+    "source_type": "forum",
+    "keywords": ["AI agent scheduled tasks", "Google Antigravity", "cron-like"],
+    "date": "2026-03-04"
+  },
+  {
+    "title": "Moltbot Cron Jobs - Building Proactive AI Automation",
+    "url": "https://zenvanriel.nl/ai-engineer-blog/moltbot-cron-jobs-proactive-ai-guide/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "proactive automation", "periodic tasks"],
+    "date": "2026-03-04"
+  },
+  {
+    "title": "autonomous-task-runner: Persistent task queue skill for OpenClaw",
+    "url": "https://playbooks.com/skills/openclaw/skills/autonomous-task-runner",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent task runner", "persistent queue", "autonomous execution"],
+    "date": "2026-03-04"
   }
 ]
