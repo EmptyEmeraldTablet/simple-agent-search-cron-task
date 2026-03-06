@@ -742,5 +742,61 @@
     "source_type": "github",
     "keywords": ["AI agent cron job scheduling", "periodic execution", "task queue", "24/7 daemon"],
     "date": "2026-03-05"
+  },
+  {
+    "title": "Clawdbot Cron Jobs - Building Proactive AI Automation",
+    "url": "https://zenvanriel.com/ai-engineer-blog/clawdbot-cron-jobs-proactive-ai-guide/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "proactive automation", "periodic tasks"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "AI Agents ... is just a cron from kubernetes?",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1is25gz/ai_agents_is_just_a_cron_from_kubernetes/",
+    "source": "reddit",
+    "source_type": "reddit",
+    "keywords": ["AI agent cron job", "kubernetes", "scheduled tasks"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "scheduled-task: Claude CLI Scheduled Task Skill",
+    "url": "https://lobehub.com/tr/skills/xuzeyu91-ai-agent-toolkit-scheduled-task",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduled tasks", "cron expression", "Claude CLI"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "Cron Jobs - OpenClaw Documentation",
+    "url": "https://openclawlab.com/en/docs/automation/cron-jobs/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "OpenClaw", "scheduled tasks"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "Durable Execution for AI Agents",
+    "url": "https://inference.sh/blog/agent-runtime/durable-execution",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent execution", "durable execution", "failure recovery", "checkpoint"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "Long-Running AI Agents and Task Decomposition 2026",
+    "url": "https://zylos.ai/research/2026-01-16-long-running-ai-agents",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent long-running", "task decomposition", "autonomous scheduling"],
+    "date": "2026-03-06"
+  },
+  {
+    "title": "Long-Running Autonomous Agents: Architectures, Capabilities, Applications, and Future Directions",
+    "url": "https://mgx.dev/insights/long-running-autonomous-agents-architectures-capabilities-applications-and-future-directions/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent architecture", "long-running agents", "autonomous execution"],
+    "date": "2026-03-06"
   }
 ]
