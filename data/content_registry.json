@@ -798,5 +798,37 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent architecture", "long-running agents", "autonomous execution"],
     "date": "2026-03-06"
+  },
+  {
+    "title": "We built a runtime for background AI agents",
+    "url": "https://medium.com/@miki_45906/we-built-a-runtime-for-background-ai-agents-1ff6e8bc7c9a",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent background execution", "langchain-runner", "daemon", "scheduled tasks"],
+    "date": "2026-03-07"
+  },
+  {
+    "title": "aidaemon: Personal AI daemon",
+    "url": "https://github.com/davo20019/aidaemon",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent daemon", "Rust", "background execution", "Telegram", "MCP"],
+    "date": "2026-03-07"
+  },
+  {
+    "title": "agent-task-queue: Local task queuing for AI agents",
+    "url": "https://github.com/block/agent-task-queue",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent task queue", "background execution", "Python"],
+    "date": "2026-03-07"
+  },
+  {
+    "title": "How I Built Mission Control to Manage My Autonomous AI Agents",
+    "url": "https://dev.to/meisnerdan/how-i-built-an-autonomous-daemon-to-manage-my-ai-agents-4i16",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent daemon", "autonomous management", "task management"],
+    "date": "2026-03-07"
   }
 ]
