@@ -830,5 +830,21 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent daemon", "autonomous management", "task management"],
     "date": "2026-03-07"
+  },
+  {
+    "title": "The Cron Agent Pattern: How to Run AI Agents on a Schedule Without Them Going Off the Rails",
+    "url": "https://dev.to/askpatrick/the-cron-agent-pattern-how-to-run-ai-agents-on-a-schedule-without-them-going-off-the-rails-4gma",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "scheduled execution", "autonomous scheduling"],
+    "date": "2026-03-08"
+  },
+  {
+    "title": "How the Agent Loop and Cron Work Together Inside Autobot",
+    "url": "https://veelenga.github.io/how-agent-loop-and-cron-work-together-inside-autobot/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "Crystal", "autobot", "agent loop", "scheduled tasks"],
+    "date": "2026-03-08"
   }
 ]
