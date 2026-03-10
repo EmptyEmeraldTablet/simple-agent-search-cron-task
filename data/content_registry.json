@@ -846,5 +846,77 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent cron job", "Crystal", "autobot", "agent loop", "scheduled tasks"],
     "date": "2026-03-08"
+  },
+  {
+    "title": "NikoSokratous/agentctl: Production-grade runtime for autonomous AI agents",
+    "url": "https://github.com/NikoSokratous/agentctl",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent infrastructure", "Go", "production runtime", "scheduled execution"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "Daymon: Run your favorite AI while you sleep",
+    "url": "https://github.com/daymonio/daymon",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduling", "desktop app", "Claude", "background automation"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "The Heartbeat Pattern: How to Keep AI Agents Alive Between Tasks",
+    "url": "https://dev.to/askpatrick/the-heartbeat-pattern-how-to-keep-ai-agents-alive-between-tasks-2b0p",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent heartbeat", "persistent execution", "idle state management"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "AI Agent Observability: Health Monitoring and Diagnostic Patterns for Multi-Agent Networks",
+    "url": "https://zylos.ai/research/2026-03-07-ai-agent-observability-health-monitoring-diagnostic-patterns",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent observability", "health monitoring", "multi-agent diagnostics"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "jpengclaw-cron-scheduler: System-level cron job scheduler for AI agents",
+    "url": "https://lobehub.com/skills/jpengclaw-cron-scheduler",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron scheduler", "system cron", "persistent scheduling"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "CodeGeass: AI coding agent orchestration with skills, approvals, notifications",
+    "url": "https://github.com/DonTizi/CodeGeass",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent orchestration", "Claude Code", "scheduler", "task automation"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "Relentless: Universal AI Agent Orchestrator",
+    "url": "https://github.com/ArvorCo/Relentless",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent orchestrator", "multi-agent", "task scheduling"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "Loop: Slack/Discord bot running Claude Code agents in Docker with scheduled tasks",
+    "url": "https://github.com/radutopala/loop",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent docker", "scheduled tasks", "Slack bot", "Discord bot"],
+    "date": "2026-03-09"
+  },
+  {
+    "title": "kage-ai: AI-native cron task runner for per-project scheduled prompts",
+    "url": "https://pypi.org/project/kage-ai/",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron", "scheduled prompts", "project agent"],
+    "date": "2026-03-09"
   }
 ]
