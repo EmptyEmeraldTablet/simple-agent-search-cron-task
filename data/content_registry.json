@@ -918,5 +918,37 @@
     "source_type": "github",
     "keywords": ["AI agent cron", "scheduled prompts", "project agent"],
     "date": "2026-03-09"
+  },
+  {
+    "title": "open-relay: Session-persistent PTY relay for long-running CLI agents",
+    "url": "https://github.com/Slaveoftime/open-relay",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent daemon", "PTY relay", "session persistence", "long-running agents"],
+    "date": "2026-03-11"
+  },
+  {
+    "title": "agentd: A daemon that makes a desktop OS accessible to AI agents",
+    "url": "https://github.com/agentsea/agentd",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent daemon", "desktop OS", "background execution", "MCP"],
+    "date": "2026-03-11"
+  },
+  {
+    "title": "agentd: The StereOS agent management daemon",
+    "url": "https://github.com/papercomputeco/agentd",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent daemon", "agent management", "tmux", "restart policies"],
+    "date": "2026-03-11"
+  },
+  {
+    "title": "AI Agents vs Cron Jobs: What's the Real Difference?",
+    "url": "https://docs.bswen.com/blog/2026-02-09-ai-agents-vs-cron-jobs/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "automation", "scheduled tasks"],
+    "date": "2026-03-11"
   }
 ]
