@@ -950,5 +950,69 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent cron job", "automation", "scheduled tasks"],
     "date": "2026-03-11"
+  },
+  {
+    "title": "GuildBotics: Multi-agent task scheduling and command execution framework",
+    "url": "https://github.com/GuildBotics/GuildBotics",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduling", "multi-agent", "task execution", "Python"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "agentcontrolplane: Distributed agent scheduler for outer-loop agents",
+    "url": "https://github.com/humanlayer/agentcontrolplane",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduler", "distributed", "MCP", "human feedback"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "ATOM Framework: Autonomous Task Orchestration Manager for AI systems",
+    "url": "https://github.com/daveshap/ATOM_Framework",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent orchestration", "task management", "automation"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "RFC: Agent Routines — cron-scheduled agent execution with dedicated prompts",
+    "url": "https://github.com/paperclipai/paperclip/issues/219",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron scheduling", "agent routines", "periodic execution"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "cron-helper: Schedule and manage recurring tasks with natural language",
+    "url": "https://playbooks.com/skills/openclaw/skills/cron-helper",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron scheduling", "natural language", "OpenClaw"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "The Cron Agent Pattern: How to Run AI Agents on a Schedule Without Them Going Off the Rails",
+    "url": "https://dev.to/askpatrick/the-cron-agent-pattern-how-to-run-ai-agents-on-a-schedule-without-them-going-off-the-rails-4gma",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron scheduling", "scheduled execution", "autonomous"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "How to Schedule AI Agents That Run Themselves",
+    "url": "https://dev.to/nebulagg/how-to-schedule-ai-agents-that-run-themselves-1a2f",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduling", "autonomous execution", "3 patterns"],
+    "date": "2026-03-12"
+  },
+  {
+    "title": "Claude Code Loop: Cron Scheduling Inside Your IDE",
+    "url": "https://www.mejba.me/blog/claude-code-loop-cron-scheduling",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron scheduling", "Claude Code", "IDE"],
+    "date": "2026-03-12"
   }
 ]
