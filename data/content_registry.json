@@ -1014,5 +1014,53 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent cron scheduling", "Claude Code", "IDE"],
     "date": "2026-03-12"
+  },
+  {
+    "title": "agentuse: AI agents on autopilot. Any model. Runs local, cron, CI/CD, or Docker",
+    "url": "https://github.com/agentuse/agentuse",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron", "scheduled tasks", "autopilot", "Docker"],
+    "date": "2026-03-13"
+  },
+  {
+    "title": "kubeclaw: Run a fleet of AI agents on Kubernetes",
+    "url": "https://github.com/AlexsJones/kubeclaw",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent kubernetes", "scheduled execution", "fleet management"],
+    "date": "2026-03-13"
+  },
+  {
+    "title": "Boucle: Autonomous agent framework with structured memory, safety hooks, and loop management",
+    "url": "https://github.com/Bande-a-Bonnot/Boucle-framework",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent framework", "autonomous loop", "Rust"],
+    "date": "2026-03-13"
+  },
+  {
+    "title": "browserbird: Self-hosted AI agent orchestrator with real browser and cron scheduler",
+    "url": "https://github.com/Owloops/browserbird",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron scheduler", "browser automation", "web dashboard"],
+    "date": "2026-03-13"
+  },
+  {
+    "title": "ralphex: Extended Ralph loop for autonomous AI-driven plan execution",
+    "url": "https://github.com/umputun/ralphex",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent autonomous execution", "24/7 agent", "Claude Code"],
+    "date": "2026-03-13"
+  },
+  {
+    "title": "OwnPilot: Privacy-first personal AI assistant platform with autonomous agents",
+    "url": "https://github.com/ownpilot/OwnPilot",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent background execution", "autonomous agents", "multi-agent orchestration"],
+    "date": "2026-03-13"
   }
 ]
