@@ -1062,5 +1062,29 @@
     "source_type": "github",
     "keywords": ["AI agent background execution", "autonomous agents", "multi-agent orchestration"],
     "date": "2026-03-13"
+  },
+  {
+    "title": "opencode-scheduler: Run AI agents on a schedule using OS native schedulers",
+    "url": "https://github.com/different-ai/opencode-scheduler",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron", "scheduled tasks", "launchd", "systemd", "OpenCode"],
+    "date": "2026-03-14"
+  },
+  {
+    "title": "ai-cron: Transform natural language into cron expressions with AI",
+    "url": "https://github.com/10tinn/ai-cron",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron", "natural language cron", "scheduled tasks"],
+    "date": "2026-03-14"
+  },
+  {
+    "title": "ai-agent-automation: Modular AI agent workflow automation platform with schedulers",
+    "url": "https://github.com/vmDeshpande/ai-agent-automation",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent automation", "workflow automation", "schedulers", "observability"],
+    "date": "2026-03-14"
   }
 ]
