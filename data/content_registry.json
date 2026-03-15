@@ -1086,5 +1086,61 @@
     "source_type": "github",
     "keywords": ["AI agent automation", "workflow automation", "schedulers", "observability"],
     "date": "2026-03-14"
+  },
+  {
+    "title": "autosclaw: Autonomous AI Agent Orchestration Platform - spawn, schedule, and orchestrate autonomous Claude-powered agents in Docker containers",
+    "url": "https://github.com/BreuerFlorian/autosclaw",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent orchestration", "scheduled execution", "Docker", "Claude", "TypeScript"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "TimeTerra: cron scheduling kubernetes operator for executing actions at specific times",
+    "url": "https://github.com/d3vlo0p/timeterra",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["Kubernetes operator", "cron scheduling", "scheduled execution", "Go"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "llm-scheduler: Tool library for LLMs to initiate delayed or scheduled tasks through natural language",
+    "url": "https://github.com/rebase-ai/llm-scheduler",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduler", "natural language", "k8s cronjob", "celery", "Python"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "axe: Lightweight CLI for running single-purpose AI agents, trigger from cron, git hooks, or terminal",
+    "url": "https://github.com/jrswab/axe",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent CLI", "cron trigger", "lightweight", "Go"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "klaw: Kubernetes for AI Agents - deploy, orchestrate, and scale AI agents across infrastructure",
+    "url": "https://github.com/klawsh/klaw.sh",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["Kubernetes AI agent", "agent orchestration", "scheduled execution", "Go"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "How To Schedule Your AI Agent With Cron Jobs 24/7 on OpenClaw Direct",
+    "url": "https://medium.com/@openclaw.direct/how-to-schedule-your-ai-agent-with-cron-jobs-24-7-on-openclaw-direct-affbf07ed031",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "scheduled execution", "24/7 automation", "OpenClaw"],
+    "date": "2026-03-15"
+  },
+  {
+    "title": "Coding Challenge #111 - AI Agent Scheduling System",
+    "url": "https://codingchallenges.substack.com/p/coding-challenge-111-ai-agent-scheduling",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduling system", "cron schedule", "coding challenge"],
+    "date": "2026-03-15"
   }
 ]
