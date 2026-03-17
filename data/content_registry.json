@@ -1142,5 +1142,29 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent scheduling system", "cron schedule", "coding challenge"],
     "date": "2026-03-15"
+  },
+  {
+    "title": "Switchboard - Cron for AI Coding Agents",
+    "url": "https://github.com/kkingsbe/switchboard-rs-oss",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron scheduling", "Docker isolation", "Claude Code", "Rust"],
+    "date": "2026-03-16"
+  },
+  {
+    "title": "OpenCrons - Automated Agent Scheduler",
+    "url": "https://github.com/DikaVer/opencrons",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent cron scheduler", "Claude Code", "Telegram bot", "TUI"],
+    "date": "2026-03-16"
+  },
+  {
+    "title": "AIDaemon - Lightweight AI Framework with Scheduled Jobs",
+    "url": "https://github.com/EvalVis/AIDaemon",
+    "source": "github",
+    "source_type": "github",
+    "keywords": ["AI agent scheduled jobs", "Spring Boot", "MCP", "persistent memory"],
+    "date": "2026-03-16"
   }
 ]

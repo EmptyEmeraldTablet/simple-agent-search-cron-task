@@ -2920,3 +2920,171 @@ Wrote file successfully.
 日志已追加到 `/home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log`，`summary_latest.md` 保持不变。
 [2026-03-16 08:05:28] 任务执行成功
 [2026-03-16 08:05:28] 任务执行成功
+[master 1517098] Update: 2026-03-16 08:05
+ 4 files changed, 246 insertions(+), 1 deletion(-)
+ create mode 100644 content/posts/2026-03-16_08-05.md
+[2026-03-16 08:05:32] ========== 任务完成 ==========
+[2026-03-17 08:00:01] ========== 开始技术创新监测任务 ==========
+[2026-03-17 08:00:02] 加载配置: 搜索任务
+[2026-03-17 08:00:02] 关键词: AI agent AND (cron job OR scheduled tasks OR periodic execution)
+[2026-03-17 08:00:02] 开始执行技术创新监测任务 (尝试 1/3)
+[2026-03-17 08:00:02] 执行 opencode run
+[0m
+> build · minimax-m2.5-free
+[0m
+[0m✗ [0mwebsearch failed
+[91m[1mError: [0mThe websearch tool was called with invalid arguments: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "query"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+].
+Please rewrite the input so it satisfies the expected schema.
+[0m✗ [0mwebsearch failed
+[91m[1mError: [0mThe websearch tool was called with invalid arguments: [
+  {
+    "expected": "string",
+    "code": "invalid_type",
+    "path": [
+      "query"
+    ],
+    "message": "Invalid input: expected string, received undefined"
+  }
+].
+Please rewrite the input so it satisfies the expected schema.
+[0m◈ [0mExa Web Search "LLM agent cron scheduler automation"
+[0m→ [0mRead data/content_registry.json
+[0m◈ [0mExa Web Search "Switchboard AI coding agent cron scheduler GitHub"
+[0m◈ [0mExa Web Search "AI agent scheduled task automation GitHub 2026"
+[0m◈ [0mExa Web Search ""AI agent" cron scheduling open source tool 2026"
+[0m◈ [0mExa Web Search "AI agent daemon schedule background execution GitHub 2026 March"
+[0m✱ [0mGrep "switchboard|opencrons|AIDaemon|cronlet"[90m in data · 0 matches[0m
+[0m
+[0m← [0mWrite data/new_content.json
+Wrote file successfully.
+[0m
+[0m→ [0mRead data/content_registry.json[90m [offset=1140][0m
+[0m
+[0m← [0mEdit data/content_registry.json
+Index: /home/oyzy/cron/simple-agent-search-cron-task/data/content_registry.json
+===================================================================
+--- /home/oyzy/cron/simple-agent-search-cron-task/data/content_registry.json
++++ /home/oyzy/cron/simple-agent-search-cron-task/data/content_registry.json
+@@ -1141,6 +1141,30 @@
+     "source": "tech_blog",
+     "source_type": "tech_blog",
+     "keywords": ["AI agent scheduling system", "cron schedule", "coding challenge"],
+     "date": "2026-03-15"
++  },
++  {
++    "title": "Switchboard - Cron for AI Coding Agents",
++    "url": "https://github.com/kkingsbe/switchboard-rs-oss",
++    "source": "github",
++    "source_type": "github",
++    "keywords": ["AI agent cron scheduling", "Docker isolation", "Claude Code", "Rust"],
++    "date": "2026-03-16"
++  },
++  {
++    "title": "OpenCrons - Automated Agent Scheduler",
++    "url": "https://github.com/DikaVer/opencrons",
++    "source": "github",
++    "source_type": "github",
++    "keywords": ["AI agent cron scheduler", "Claude Code", "Telegram bot", "TUI"],
++    "date": "2026-03-16"
++  },
++  {
++    "title": "AIDaemon - Lightweight AI Framework with Scheduled Jobs",
++    "url": "https://github.com/EvalVis/AIDaemon",
++    "source": "github",
++    "source_type": "github",
++    "keywords": ["AI agent scheduled jobs", "Spring Boot", "MCP", "persistent memory"],
++    "date": "2026-03-16"
+   }
+ ]
+
+[0m
+[0m✗ [0mwrite failed
+[91m[1mError: [0mYou must read file /home/oyzy/cron/simple-agent-search-cron-task/data/summary_latest.md before overwriting it. Use the Read tool first
+[0m→ [0mRead data/summary_latest.md
+[0m
+[0m← [0mWrite data/summary_latest.md
+Wrote file successfully.
+[0m
+[0m→ [0mRead logs/summary.log[90m [limit=50, offset=1][0m
+[0m
+[0m$ [0mtail -30 /home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log
++    "keywords": ["AI agent cron scheduling", "Docker isolation", "Claude Code", "Rust"],
++    "date": "2026-03-16"
++  },
++  {
++    "title": "OpenCrons - Automated Agent Scheduler",
++    "url": "https://github.com/DikaVer/opencrons",
++    "source": "github",
++    "source_type": "github",
++    "keywords": ["AI agent cron scheduler", "Claude Code", "Telegram bot", "TUI"],
++    "date": "2026-03-16"
++  },
++  {
++    "title": "AIDaemon - Lightweight AI Framework with Scheduled Jobs",
++    "url": "https://github.com/EvalVis/AIDaemon",
++    "source": "github",
++    "source_type": "github",
++    "keywords": ["AI agent scheduled jobs", "Spring Boot", "MCP", "persistent memory"],
++    "date": "2026-03-16"
+   }
+ ]
+
+[0m
+[0m✗ [0mwrite failed
+[91m[1mError: [0mYou must read file /home/oyzy/cron/simple-agent-search-cron-task/data/summary_latest.md before overwriting it. Use the Read tool first
+[0m→ [0mRead data/summary_latest.md
+[0m
+[0m← [0mWrite data/summary_latest.md
+Wrote file successfully.
+[0m
+[0m→ [0mRead logs/summary.log[90m [limit=50, offset=1][0m
+[0m
+[0m$ [0mwc -l /home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log
+4307 /home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log
+[0m
+[0m$ [0mecho "
+
+======================================================================
+[2026-03-17] 技术创新监测报告 - AI agent定时执行
+
+## 来源分类统计
+- GitHub/GitLab: 3 个新项目
+- arXiv: 0 篇新论文
+- Reddit: 0 个新讨论
+- 技术博客: 0 篇新文章
+
+## 关键发现
+- Switchboard: Rust实现的轻量级AI代理cron调度，Docker隔离和配置化部署
+- OpenCrons: Claude Code调度与Telegram bot结合，提供移动端管理
+- AIDaemon: Spring Boot生态，企业级定时任务和MCP集成
+
+## 摘要
+本期发现AI agent定时执行领域出现三个新开源项目，趋向更轻量化、更易用、更企业化。
+
+======================================================================" >> /home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log
+[0m
+[0m$ [0mrm /home/oyzy/cron/simple-agent-search-cron-task/data/new_content.json
+[0m→ [0mRead data/content_registry.json[90m [offset=1143][0m
+已完成搜索任务。本期发现3个新的AI agent定时执行相关开源项目：
+
+1. **Switchboard** (kkingsbe/switchboard-rs-oss) - Rust实现的Docker隔离AI编码代理cron调度器
+2. **OpenCrons** (DikaVer/opencrons) - Claude Code定时任务调度器，集成Telegram bot和TUI
+3. **AIDaemon** (EvalVis/AIDaemon) - Spring Boot企业级AI框架，支持定时任务和MCP
+
+这些项目体现了AI agent定时执行向更轻量化(Rust)、更易用(移动端管理)、更企业化(Spring Boot)发展的趋势。
+
+已更新文件：
+- `/home/oyzy/cron/simple-agent-search-cron-task/data/content_registry.json` (+3条)
+- `/home/oyzy/cron/simple-agent-search-cron-task/data/summary_latest.md`
+- `/home/oyzy/cron/simple-agent-search-cron-task/logs/summary.log` (已追加)
+[2026-03-17 08:05:30] 任务执行成功
+[2026-03-17 08:05:30] 任务执行成功
