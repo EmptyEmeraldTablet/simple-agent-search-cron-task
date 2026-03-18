@@ -1166,5 +1166,29 @@
     "source_type": "github",
     "keywords": ["AI agent scheduled jobs", "Spring Boot", "MCP", "persistent memory"],
     "date": "2026-03-16"
+  },
+  {
+    "title": "How to Build Scheduled AI Agents with Claude Code",
+    "url": "https://www.mindstudio.ai/blog/how-to-build-scheduled-ai-agents-claude-code",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "Claude Code", "autonomous execution"],
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Claude Code Scheduled Tasks: Complete Setup Guide (2026)",
+    "url": "https://claudefa.st/blog/guide/development/scheduled-tasks",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "Claude Code", "recurring tasks"],
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Scheduled Tasks: The Loop Skill and Cron Tools",
+    "url": "https://agentfactory.panaversity.org/docs/General-Agents-Foundations/general-agents/scheduled-tasks-cron",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "loop skill", "cron tools"],
+    "date": "2026-03-17"
   }
 ]
