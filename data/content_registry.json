@@ -1190,5 +1190,21 @@
     "source_type": "tech_blog",
     "keywords": ["AI agent scheduled tasks", "loop skill", "cron tools"],
     "date": "2026-03-17"
+  },
+  {
+    "title": "How to Schedule AI Agents to Run Automatically (Cron, Triggers, and Webhooks)",
+    "url": "https://agentc2.ai/blog/how-to-schedule-ai-agents-cron-triggers",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job scheduling", "scheduled tasks", "triggers", "webhooks"],
+    "date": "2026-03-18"
+  },
+  {
+    "title": "AI Agent Cron Jobs: How to Schedule Automated Tasks for Your AI Assistant",
+    "url": "https://www.ampere.sh/blog/ai-agent-cron-jobs",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron job", "scheduled tasks", "automation"],
+    "date": "2026-03-18"
   }
 ]
