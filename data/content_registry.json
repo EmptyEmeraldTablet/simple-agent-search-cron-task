@@ -1208,75 +1208,19 @@
     "date": "2026-03-18"
   },
   {
+    "title": "Schedule agents, teams, and workflows with cron-based automation",
+    "url": "https://www.reddit.com/r/agno/comments/1rei2a6/new_scheduler_schedule_agents_teams_and_workflows/",
+    "source": "reddit",
+    "source_type": "reddit",
+    "keywords": ["AI agent cron job scheduling", "scheduled execution", "Agno scheduler"],
+    "date": "2026-02-25"
+  },
+  {
     "title": "How To Schedule Your AI Agent With Cron Jobs 24/7",
     "url": "https://openclaw.direct/blog/schedule-ai-agent-cron-jobs-24-7",
     "source": "tech_blog",
     "source_type": "tech_blog",
     "keywords": ["AI agent cron job", "scheduled tasks", "24/7 automation", "OpenClaw", "heartbeat"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "The Cron Agent Pattern: How to Run AI Agents on a Schedule Without Them Going Off the Rails",
-    "url": "https://dev.to/askpatrick/the-cron-agent-pattern-how-to-run-ai-agents-on-a-schedule-without-them-going-off-the-rails-4gma",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent cron job", "scheduled execution", "autonomous scheduling", "24/7 agents"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "Scheduled Tasks: The Loop Skill and Cron Tools",
-    "url": "https://agentfactory.panaversity.org/docs/General-Agents-Foundations/general-agents/scheduled-tasks-cron",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent scheduled tasks", "loop skill", "cron tools", "periodic execution"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "Cronlet — Your Agent's Calendar | Scheduled Tasks for AI",
-    "url": "https://cronlet.dev/",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent cron", "scheduled tasks", "natural language scheduling", "MCP"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "What Is Claude Code Loop? How to Schedule Recurring AI Agent Tasks",
-    "url": "https://www.mindstudio.ai/blog/what-is-claude-code-loop-scheduled-recurring-tasks",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent scheduled tasks", "Claude Code", "loop skill", "recurring tasks"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "Coding Challenge #111 - AI Agent Scheduling System",
-    "url": "https://codingchallenges.substack.com/p/coding-challenge-111-ai-agent-scheduling",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent scheduling system", "cron schedule", "coding challenge", "autonomous execution"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "I Replaced My Entire Productivity Stack with an AI Agent Running 24/7",
-    "url": "https://dev.to/cypriantinasheaarons/i-replaced-my-entire-productivity-stack-with-an-ai-agent-running-247-4f6p",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent 24/7", "OpenClaw", "autonomous productivity", "scheduled automation"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "OpenClaw Tip #2: Set Up Cron Jobs for Automated Daily Tasks",
-    "url": "https://aixsociety.com/openclaw-tip-2-cron-jobs-automated-daily-tasks/",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent cron job", "OpenClaw", "scheduled tasks", "daily automation"],
-    "date": "2026-03-19"
-  },
-  {
-    "title": "How to Build Scheduled AI Agents with Claude Code",
-    "url": "https://www.mindstudio.ai/blog/how-to-build-scheduled-ai-agents-claude-code",
-    "source": "tech_blog",
-    "source_type": "tech_blog",
-    "keywords": ["AI agent scheduled tasks", "Claude Code", "autonomous execution", "background agent"],
-    "date": "2026-03-19"
+    "date": "2026-03-21"
   }
 ]
