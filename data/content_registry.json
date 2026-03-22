@@ -1224,3 +1224,21 @@
     "date": "2026-03-21"
   }
 ]
+  ,
+  {
+    "title": "Gumloop Introduces Agent Tasks: Scheduled and Trigger-Based Agent Execution",
+    "url": "https://gumloop.com/blog/introducing-agent-tasks",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent scheduled tasks", "trigger-based execution", "Gumloop"],
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Cronlet: Give Your Agent a Calendar - MCP-Based Scheduling for AI",
+    "url": "https://cronlet.dev/",
+    "source": "tech_blog",
+    "source_type": "tech_blog",
+    "keywords": ["AI agent cron scheduling", "MCP", "natural language schedules"],
+    "date": "2026-03-22"
+  }
+]
